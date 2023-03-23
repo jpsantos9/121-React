@@ -1,5 +1,5 @@
 import React from 'react';
-import ShoppingItem from './ShoppingItem';
+import ShoppingItem from '../Components/ShoppingItem';
 
 // React.Component
 // ShoppingList is a React component class, or React component type

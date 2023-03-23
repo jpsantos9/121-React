@@ -1,9 +1,7 @@
 import React from 'react';
+import { ThemeContext } from '../context';
 
 class ShoppingItem extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   
   // Lifecycle Methods [componentDidMount, componentWillUnmount]
   componentDidMount() {
@@ -18,7 +16,7 @@ class ShoppingItem extends React.Component {
 
   render() {
     return (
-      <li>
+      <li style={{color: this.context.foreground, backgroundColor: this.context.background}}>
         {/* You can call a method from the parent component */}
         <input type="checkbox" checked={this.props.item.selected} onChange={() => this.props.selectItem(this.props.dataKey)} />
         {this.props.item.name}
@@ -26,5 +24,7 @@ class ShoppingItem extends React.Component {
     )
   }
 }
+
+ShoppingItem.contextType=ThemeContext;
 
 export default ShoppingItem;

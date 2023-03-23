@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm i react-router-dom`
+
+The react-router-dom package contains bindings for using React Router in web applications.
+See the section about [react-router-dom](https://reactrouter.com/en/main/start/tutorial) for more information.
+
 ### `npm start`
 
 Runs the app in the development mode.\
