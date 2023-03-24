@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install axios`
+
+Axios is a module used to send API request 
+See the section about [axios](https://www.npmjs.com/package/axios) for more information.
+
 ### `npm i react-router-dom`
 
 The react-router-dom package contains bindings for using React Router in web applications.
